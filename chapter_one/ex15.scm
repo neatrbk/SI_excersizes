@@ -8,7 +8,7 @@
 
 (test 0 (p))
 ;; With applicative-order operation the (p) procedure is evaluated
-;; because p is recursivly defined to itself and ifinate loop is triggered (p) => (p) => (p)
+;; because p is recursivly defined to itself and infinate loop is triggered (p) => (p) => (p)
 
 
 ;; With normaltive-order operation the (p) procedure is not evalutated until it's needed
