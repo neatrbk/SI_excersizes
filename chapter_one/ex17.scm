@@ -3,7 +3,11 @@
 ;; good-enough? test right away, returning and inaccurate result
 
 ;; large numbers would be inaccurate simply because we cannot trust the accracy
-;; of
+;; of arithmic operations to the .00001 degree. Some large numbers will return
+;; inaccurate results because of this.
+
+;; the implimentation below looks for shift values in the guesses and based on
+;; these values, determines if more guesses are needed.		
 
 ---------------------------------------------------------------------------------
 
